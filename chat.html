@@ -20,24 +20,25 @@
         <h3>Welcome to the Chat</h3>
     </div>
 
-    <ul id="messages">
-        <li>
-            Hello
-        </li>
-
+    <ul id="history">
     </ul>
+
     <form action="">
         <input id="m" autocomplete="off" />
-        <button>Send</button>
     </form>
-    <button onclick="send()">Login</button>
+
+    <button onclick="send()">Send</button>
 
     <script>
         function send() {
             var msg = document.getElementById('m').value;
             var entry = document.createElement('li');
+            var br = document.createElement('br');
+            var list = document.getElementById("history")
+            var list
             entry.appendChild(document.createTextNode(msg));
             list.appendChild(entry);
+            list.appendChild(br);
         }
     </script>
 
