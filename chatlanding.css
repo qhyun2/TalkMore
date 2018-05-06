@@ -1,0 +1,18 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ff9233;
+}
+
+#chat {
+    background: #ff9233;
+    align-content: center;
+    text-align: center;
+    color: green;
+    vertical-align: middle;
+    padding: 200px;
+    font-size: 60px;
+}
+
+#link {
+    color: blue;
+}
