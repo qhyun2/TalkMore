@@ -1,25 +1,59 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #ffa31a;
+    background: #d9d9d9;
 }
 
 #chat {
-    background: #ffa31a;
+    background: #d9d9d9;
     align-content: center;
     text-align: center;
     color: green;
     vertical-align: middle;
-    padding: 50px;
+    padding: 30px;
     font-size: 60px;
+}
+#argueTalkMore{
+    color: #33adff;
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+    font-size: 135px;
+}
+#againstlabel {
+    width: 400px;
+    height: 20px;
+    size: 40px;
+}
+#forlabel {
+    width: 400px;
+    height: 20px;
+    size: 40px;
 }
 
 h2 {
-    background: #ffa31a;
+    background: #d9d9d9;
     align-content: center;
     text-align: center;
     color: black;
     vertical-align: middle;
     font-size: 50px;
+}
+
+#against {
+    font-size: 40px;
+    color: #007acc;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 35px;
+}
+#subbutton {
+    font-size: 20px;
+    color: #007acc; 
+    font-family: 'Righteous', cursive;
+}
+#for {
+    font-size: 40px;
+    color: #007acc;
+    font-family: 'Righteous', cursive;
+    padding-bottom: 35px;
 }
 
 .button {
@@ -34,7 +68,12 @@ h2 {
         margin: 20px 20px;
         border-radius: 20px;
   }
-
+  #center {
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 50px;
+}
 #link {
     color: blue;
 }

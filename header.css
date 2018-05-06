@@ -9,7 +9,10 @@ ul {
 li {
     float: left;
     border-right:1px solid #bbb;
+    font-family: 'Righteous', cursive;
 }
+
+
 
 li:last-child {
     display: block;
@@ -24,6 +27,7 @@ li a {
     padding: 14px 16px;
     font-size: 25px;
     text-decoration: none;
+    font-family: 'Righteous', cursive;
 }
 
 li a:hover:not(.active) {

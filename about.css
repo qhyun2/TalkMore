@@ -1,10 +1,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #ff9233;
+    background: whitesmoke;
      }
 .content {
-    background: #ff9233;
+    background: whitesmoke;
     /* Give myself a max width */
     max-width: 650px;
     /* Center myself! */
@@ -21,8 +21,8 @@ body {
 }
 
 #aboutheading {
-    color: #006600;
-    font-family: 'Fredoka One', cursive;
+    color: #007acc;
+    font-family: 'Righteous', cursive;
     font-size: 45px;
     font-weight: bold;
     text-align: center
@@ -30,28 +30,28 @@ body {
 
 #synopsis {
     color: black;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 34px;
     text-align: center;
 }
 
 #abouttext {
     color: black;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 23px;
 }
 
 
 #subhead {
-    color: #003300  ;
-    font-family: 'Fredoka One', cursive;
+    color: #0099ff  ;
+    font-family: 'Righteous', cursive;
     font-size: 28px;
     text-align: center;
 }
 
 #moodtext {
     color: black;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Righteous', cursive;
     font-size: 25px;
     text-align: center;
 }
