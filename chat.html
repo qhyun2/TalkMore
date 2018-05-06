@@ -30,6 +30,16 @@
         <input id="m" autocomplete="off" />
         <button>Send</button>
     </form>
+    <button onclick="send()">Login</button>
+
+    <script>
+        function send() {
+            var msg = document.getElementById('m').value;
+            var entry = document.createElement('li');
+            entry.appendChild(document.createTextNode(msg));
+            list.appendChild(entry);
+        }
+    </script>
 
     <script>
         $("#header").load("header.html");
