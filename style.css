@@ -1,10 +1,10 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #CCC;
+    background: #ff9233;
 }
 .content {
-    background: #FFF;
+    background: #ff9233;
     /* Give myself a max width */
     max-width: 650px;
     /* Center myself! */
