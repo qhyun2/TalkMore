@@ -13,17 +13,28 @@ body {
     font-size: 60px;
 }
 
-.button {
-    background-color: #4d4d4d;
-    border: none;
-    color: white;
-    padding: 20px;
+#center {
+    align-content: center;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    vertical-align: middle;
+    padding: 100px;
+}
+
+#interest {
+    width: 400px;
+    height: 20px;
+    size: 40px;
+}
+
+#interestlabel {
     font-size: 40px;
-    margin: 20px 20px;
-    border-radius: 20px;
+    color: purple;
+    padding-bottom: 70px;
+}
+
+#subbutton{
+    width: 200px;
+    height: 25px;
 }
 
 #link {

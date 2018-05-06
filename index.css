@@ -1,0 +1,18 @@
+.button {
+    background-color: #4d4d4d;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
+
+#content {
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}

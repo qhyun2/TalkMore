@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ff9233;
+}
+
+#chatbox {
+    color: cyan;
+    size: 20px;
+    height:200px;
+    width:18%;
+   overflow: hidden;
+   overflow-y: scroll;
+}
