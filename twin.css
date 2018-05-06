@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffa31a;
+}
+
+#chat {
+    background: #ffa31a;
+    align-content: center;
+    text-align: center;
+    color: green;
+    vertical-align: middle;
+    padding: 50px;
+    font-size: 60px;
+}
+
+#center {
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 100px;
+}
+
+#interest {
+    width: 400px;
+    height: 20px;
+    size: 40px;
+}
+
+#interestlabel {
+    font-size: 40px;
+    color: purple;
+    padding-bottom: 70px;
+}
+
+#subbutton{
+    width: 200px;
+    height: 25px;
+}
+
+#link {
+    color: blue;
+}

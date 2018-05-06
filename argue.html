@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="argue.css" />
+    <title>Pick a Chat</title>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <form action="chat.html">
+        <div>
+            <label for="for" id="for">I am aginst</label>
+            <select id="for">
+                <option selected="selected">-</option>
+                <option>Soccor</option>
+                <option>Programming</option>
+                <option>Attending Hackathons</option>
+                <option>Knitting</option>
+            </select>
+            <br>
+
+            <label for="against" id="against">I am for</label>
+            <select id="against">
+                <option selected="selected">-</option>
+                <option>Soccor</option>
+                <option>Programming</option>
+                <option>Attending Hackathons</option>
+                <option>Knitting</option>
+            </select>
+            <br>
+
+        </div>
+        <button type="submit" id="subbutton">Let's Argue!</button>
+    </form>
+
+    <script>
+        $("#header").load("header.html");
+    </script>
+</body>
+
+</html>

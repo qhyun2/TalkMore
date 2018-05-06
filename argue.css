@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #ffa31a;
+}
+
+#chat {
+    background: #ffa31a;
+    align-content: center;
+    text-align: center;
+    color: green;
+    vertical-align: middle;
+    padding: 50px;
+    font-size: 60px;
+}
+
+h2 {
+    background: #ffa31a;
+    align-content: center;
+    text-align: center;
+    color: black;
+    vertical-align: middle;
+    font-size: 50px;
+}
+
+.button {
+        background-color: #4d4d4d;
+        border: none;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 40px;
+        margin: 20px 20px;
+        border-radius: 20px;
+  }
+
+#link {
+    color: blue;
+}
+
+#content {
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}

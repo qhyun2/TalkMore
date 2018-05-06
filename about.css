@@ -2,7 +2,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #ff9233;
-}
+     }
 .content {
     background: #ff9233;
     /* Give myself a max width */
@@ -14,33 +14,53 @@ body {
     padding: 20px;
 }
 
-h1 {
-    color: black;
+#info {
+    color: purple;
     font-family: 'Fredoka One', cursive;
-    font-size: 60px;
+    font-size: 190px;
 }
 
-h2 {
-    color: black;
+#aboutheading {
+    color: #006600;
     font-family: 'Fredoka One', cursive;
-    font-size: 60px;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center
 }
 
-h3 {
+#synopsis {
     color: black;
     font-family: 'Fredoka One', cursive;
-    font-size: 60px;
+    font-size: 34px;
+    text-align: center;
 }
 
-h4 {
+#abouttext {
     color: black;
     font-family: 'Fredoka One', cursive;
-    font-size: 60px;
+    font-size: 23px;
 }
 
-h5 {
+
+#subhead {
+    color: #003300  ;
+    font-family: 'Fredoka One', cursive;
+    font-size: 28px;
+    text-align: center;
+}
+
+#moodtext {
     color: black;
     font-family: 'Fredoka One', cursive;
-    font-size: 14px;
+    font-size: 25px;
+    text-align: center;
 }
 
+#allabouttext
+{
+    align-content: center;
+    vertical-align: middle;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
