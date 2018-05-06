@@ -2,7 +2,6 @@ var instanse = false;
 var state;
 var mes;
 var file;
-window.onload = alert(localStorage.getItem("nameStorage"));
 
 
 
