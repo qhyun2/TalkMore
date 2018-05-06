@@ -24,6 +24,7 @@
             <div>
                 <label for="">Email: </label>
                 <input type="text" id="email" name="email">
+                    
             </div>
 
             <div>
@@ -37,9 +38,18 @@
 
     </div>
     <script>
+    function getName() {
+    var email = document.getElementsByName("email")[0].value;
+    localStorage.setItem("nameStorage",email);
+    
+    }
+    </script>
+    <script>
         function login() {
             if (document.getElementById("email").value == "user" && document.getElementById("password").value == "pass") {
+               <script>getName();</script>
                 window.location.replace('profile.html')
+                
             } else if (document.getElementById("email").value == "user" && document.getElementById("password").value == "pass") {
                 window.location.replace('profile.html')
             } else {
@@ -47,7 +57,6 @@
             }
         }
     </script>
-
     <script>
         $("#header").load("header.html");
     </script>

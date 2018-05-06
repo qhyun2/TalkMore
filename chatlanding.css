@@ -1,17 +1,52 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #ffa31a;
+    background: white;
 }
 
 #chat {
-    background: #ffa31a;
+    background: white;
     align-content: center;
     text-align: center;
-    color: green;
+    color: white;
     vertical-align: middle;
-    padding: 50px;
+    padding: 200px;
     font-size: 60px;
 }
+
+#link {
+    color: blue;
+}
+
+/*chat session*/
+h2                              { color: #fa9f00; font: 30px Helvetica, Sans-Serif; margin: 0 0 10px 0; }
+
+/*output box*/
+#page-wrap                      { width: 500px; margin: 30px auto; position: relative; }
+
+/*translucent output border*/
+#chat-wrap                      { border: 1px solid #eee; margin: 0 0 15px 0; }
+
+/*solid output border*/
+#chat-area                      { height: 300px; overflow: auto; border: 1px solid #666; padding: 20px; background: white; }
+
+/* "guest" background color*/
+#chat-area span                 { color: white; background: #333; padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 80px; margin: 0 5px 0 0; }
+
+/* border underneath outputted chat*/
+#chat-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc; }
+
+/*
+#name-area                      { position: absolute; top: 12px; right: 0; color: black; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }
+#name-area span                 { color: #fa9f00; }
+*/
+/* your message */
+
+/* "Your message" colour*/
+#send-message-area p            { float: left; color: black; padding-top: 27px; font-size: 14px; }
+
+/*your message box*/
+#sendie                         { border: 3px solid #999; width: 360px; padding: 10px; font: 12px "Lucida Grande", Sans-Serif; float: right; }
+
 
 .button {
     background-color: #4d4d4d;
