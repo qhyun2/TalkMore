@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-        <title>Signup</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Signup</title>
 </head>
 
 <body>
@@ -14,29 +14,37 @@
 
     <br/>
 
-
     <div id="content">
 
         <h3>Login</h3>
 
-
-        <form action="Account">
+        <form>
+            <div>
                 <label for="">Email: </label>
-                <input type="email" id="email" name="email">
+                <input type="text" id="email" name="email">
             </div>
 
             <div>
                 <label for="password">Password: </label>
-                <input type="password">
-            </div>
-
-            <div>
-                <button type="submit">Submit</button>
+                <input type="password" id="password">
             </div>
 
         </form>
+        <div id="info"></div>
+        <button onclick="login()">Login</button>
 
     </div>
+    <script>
+        function login() {
+            if (document.getElementById("email").value == "user" && document.getElementById("password").value == "pass") {
+                window.location.replace('profile.html')
+            } else if (document.getElementById("email").value == "user" && document.getElementById("password").value == "pass") {
+                window.location.replace('profile.html')
+            } else {
+                document.getElementById("info").innerText = "Invalid Login";
+            }
+        }
+    </script>
 
     <script>
         $("#header").load("header.html");
